@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SalamaBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="heur">
+        <item>Choisir heur…</item>
+        <item>8:00-10:00</item>
+        <item>10:15-12:00</item>
+        <item>14:00-16:00</item>
+        <item>16:15-18:00</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479172001519",
+    "project_id": "salamabook-7c743",
+    "storage_bucket": "salamabook-7c743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479172001519:android:1e40944b1193edeb82a51a",
+        "android_client_info": {
+          "package_name": "com.example.salamabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479172001519-7m2els7gjr0107rtgo7u6s1dp3mbj5kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFlFlWx6Jfi3rTKoG_gP0uX48m9AnZHH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479172001519-7m2els7gjr0107rtgo7u6s1dp3mbj5kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

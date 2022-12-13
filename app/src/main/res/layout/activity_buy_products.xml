@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyProducts">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enteteblue" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/NameDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estsblogo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="45dp"
+        android:text="GenEMPLOI"
+        android:textColor="#F4F4F4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="110dp">
+
+                <Button
+                    android:id="@+id/lundi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btnbackground"
+                    android:text="Lundi"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/mardi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbackground"
+                    android:text="MARDI"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/mercredi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbackground"
+                    android:text="MERCREDI"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/jeudi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbackground"
+                    android:text="JEUDI"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/vendredi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbackground"
+                    android:text="VENDREDI"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/samedi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btnbackground"
+                    android:text="SAMEDI"
+                    app:backgroundTint="@color/bluebtn" />
+
+                <Button
+                    android:id="@+id/generer"
+                    android:background="@drawable/genererbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:backgroundTint="@color/green"
+                    android:text="GENERER" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView16"
+            android:name="com.example.salamabook.Lundi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_lundi"
+            tools:layout_editor_absoluteX="596dp"
+            tools:layout_editor_absoluteY="110dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
